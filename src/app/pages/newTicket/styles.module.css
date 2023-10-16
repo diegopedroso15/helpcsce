@@ -1,0 +1,222 @@
+.containerBody {
+  background-color: #484848;
+  padding-top: 80px;
+  background-image: url('/herobg.png');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  margin: -8px;
+}
+
+  .container label {
+    color: #484848;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+  .container {
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 0px solid transparent;
+    padding: 80px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  
+  .legend {
+    color: #1f5d8f !important;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600 !important;
+    font-size: 1.2em !important;
+    grid-column: 1 / -1;
+  }
+  
+  .separator {
+    height: 20px;
+  }
+  
+  .radio {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .inputContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #00467f;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .containerActions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .button {
+    padding: 10px 100px;
+    margin-top: 10px;
+    background-color: #00467f;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    width: 100%;
+  }
+  
+  .fieldsetGrid {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #c6e3f0;
+    border-radius: 20px;
+    border: 0px solid transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+  
+  .fieldsetGridWhite {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 0px solid transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 20px;
+  }
+
+  .fieldsetGridWhite label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .separatorGrid {
+    grid-column: 1 / -1;
+    height: 10px;
+  }
+  
+  .textInput {
+    border-radius: 8px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .textInputForm {
+    border-radius: 6px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #00467f;
+  }
+
+  .textareaInput {
+    height: 120px;
+  }
+  
+  .title {
+    color: #1f5d8f;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 1.7em;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 4px solid #1f5d8f;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+  .inputLabel {
+    display: flex;
+  }
+
+  .topicsInfos {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .inputAttachment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .fieldsetGrid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .fieldsetGridWhite {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .containerBody {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+    .container {
+      min-width: 100%;
+      margin: 0;
+      padding: 0;
+      box-shadow: none;
+      margin-left: 10%;
+    }
+  }
+  
